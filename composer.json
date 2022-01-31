@@ -1,0 +1,27 @@
+{
+    "name": "dzyfhuba/laravel-post-system",
+    "description": "Post, Comment, Like and Reply.",
+    "keywords": ["posts", "comments", "replies", "lie", "laravel"],
+    "license": "MIT",
+    "authors": [{
+        "name": "Hafidz Ubaidillah",
+        "email": "hafidz21ub@gmail.com"
+    }],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dzyfhuba\\PostSys\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Dzyfhuba\\PostSys\\PostSystemServiceProvider"
+            ]
+        }
+    }
+
+}
